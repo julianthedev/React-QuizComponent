@@ -6,13 +6,11 @@ class Quiz extends Component {
     super(props)
     this.state={quiz_position: 1}
   }
-
   render(){
     return(
-       <div><div className="QuizQuestion"> {quizData.quiz_questions[0].instruction_text}</div></div>
+       <div><div className="QuizQuestion">{quizData.quiz_questions[0].instruction_text}</div></div>
     )
   }
-
 }
 
 export default Quiz
