@@ -21,7 +21,7 @@ class QuizQuestion extends Component {
       <main>
         <section>
           {this.state.incorrectAnswer ? (
-            <p className="error">Incorrect answer. You're an idiot.</p>
+            <p className="error">"Incorrect answer. You're an idiot."</p>
           ) : null}
           <p>{this.props.quiz_question.instruction_text}</p>
         </section>
